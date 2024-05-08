@@ -1,0 +1,745 @@
+{
+  "id": "313818aa-9cbd-42cd-b0c6-d2e01ce7f20e",
+  "version": "2.0",
+  "name": "Teste",
+  "url": "https://www.epicgames.com/id/login?lang=pt-BR&noHostRedirect=true&redirectUrl=https%3A%2F%2Fstore.epicgames.com%2Fpt-BR%2F&client_id=875a3b57d3a640a6b7f9b4e883463ab4",
+  "tests": [{
+    "id": "3eb8be16-55cc-49f5-9871-1ba87222317e",
+    "name": "Preencher E-mail Correto",
+    "commands": [{
+      "id": "0f0e996f-58fe-4d2c-89c4-e116d4dae7f3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.epicgames.com/id/login?lang=pt-BR&noHostRedirect=true&redirectUrl=https%3A%2F%2Fstore.epicgames.com%2Fpt-BR%2F&client_id=875a3b57d3a640a6b7f9b4e883463ab4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29d57b9f-a585-433e-981b-2e1a028eb27a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ac962bc-efc5-4a09-8f72-aa2645db01e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcbc21a6-1f33-4313-9fc7-343262fe4844",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "teste@teste.com"
+    }, {
+      "id": "8d15412b-9610-4303-8c6d-e661a2401f46",
+      "comment": "",
+      "command": "click",
+      "target": "id=send",
+      "targets": [
+        ["id=send", "id"],
+        ["css=#send", "css:finder"],
+        ["xpath=//button[@id='send']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dca81313-2358-43bf-8f62-34bb15c74c49",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=send",
+      "targets": [
+        ["id=send", "id"],
+        ["css=#send", "css:finder"],
+        ["xpath=//button[@id='send']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93c81685-668c-4336-ac5e-18dd413d074e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=send",
+      "targets": [
+        ["id=send", "id"],
+        ["css=#send", "css:finder"],
+        ["xpath=//button[@id='send']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbf24693-8191-41b5-8fa1-a46db924fd98",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=send",
+      "targets": [
+        ["id=send", "id"],
+        ["css=#send", "css:finder"],
+        ["xpath=//button[@id='send']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6639ca1e-6bee-4454-9490-8015ade8c4ab",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=send",
+      "targets": [
+        ["id=send", "id"],
+        ["css=#send", "css:finder"],
+        ["xpath=//button[@id='send']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "badc6e7f-c8a4-4d2c-bc28-89f8425117b1",
+    "name": "Esqueci minha senha",
+    "commands": [{
+      "id": "65aae2ea-1a33-4c70-b454-efcca0bf6bdc",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.epicgames.com/id/login?lang=pt-BR&noHostRedirect=true&redirectUrl=https%3A%2F%2Fstore.epicgames.com%2Fpt-BR%2F&client_id=875a3b57d3a640a6b7f9b4e883463ab4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9346cbcd-f40f-4d35-9b2e-f9c9114aadc1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3e9b6db-da2c-4688-9521-580c72bbc5d0",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "251cd916-ec82-425f-b6de-fc1f87b70f5e",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=email-label",
+      "targets": [
+        ["id=email-label", "id"],
+        ["css=#email-label", "css:finder"],
+        ["xpath=//label[@id='email-label']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Endereço de E-mail')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce10a5b1-5576-46d8-a2f3-d2037c24b211",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiFormControl-root",
+      "targets": [
+        ["css=.MuiFormControl-root", "css:finder"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c603198f-547e-4517-ae51-8769c7dd0dd4",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6ed092e-c109-4753-bba3-6fa830e4f4b7",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testedesoftware224154@gmail.com"
+    }, {
+      "id": "71891815-e88e-43d0-9f38-3c89bf3894a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=send",
+      "targets": [
+        ["id=send", "id"],
+        ["css=#send", "css:finder"],
+        ["xpath=//button[@id='send']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6b997d7-4ccb-4499-8a23-6a6fb16ccec4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=send",
+      "targets": [
+        ["id=send", "id"],
+        ["css=#send", "css:finder"],
+        ["xpath=//button[@id='send']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "732fe6be-5467-494a-ace6-fa4d0c20fa6c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=send",
+      "targets": [
+        ["id=send", "id"],
+        ["css=#send", "css:finder"],
+        ["xpath=//button[@id='send']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c9d3c7d-c153-4d02-90a2-b13bcb29bb36",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=send",
+      "targets": [
+        ["id=send", "id"],
+        ["css=#send", "css:finder"],
+        ["xpath=//button[@id='send']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1404b43e-f172-4b7f-8bee-ecf39d067ac5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=send",
+      "targets": [
+        ["id=send", "id"],
+        ["css=#send", "css:finder"],
+        ["xpath=//button[@id='send']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d6773b7-a4e7-4a89-9afb-f6b7727fc88f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#to-forgot-password > .MuiTypography-root",
+      "targets": [
+        ["css=#to-forgot-password > .MuiTypography-root", "css:finder"],
+        ["xpath=//a[@id='to-forgot-password']/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Esqueceu Sua Senha')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28e43fe6-8970-4306-a345-90b3300fdaf4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#to-forgot-password > .MuiTypography-root",
+      "targets": [
+        ["css=#to-forgot-password > .MuiTypography-root", "css:finder"],
+        ["xpath=//a[@id='to-forgot-password']/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Esqueceu Sua Senha')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a697c7f-4a78-4b79-90b5-5461bd1ccb52",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiTypography-root:nth-child(2)",
+      "targets": [
+        ["css=.MuiTypography-root:nth-child(2)", "css:finder"],
+        ["xpath=//a[@id='to-forgot-password']/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Esqueceu Sua Senha')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a354ffbc-5091-42ee-90e9-300ecaf8b0a5",
+    "name": "Preencher E-mail Cadastrado",
+    "commands": [{
+      "id": "8bdbcd26-098f-4d2c-9ccb-ad5c28a0fe99",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.epicgames.com/id/login?lang=pt-BR&noHostRedirect=true&redirectUrl=https%3A%2F%2Fstore.epicgames.com%2Fpt-BR%2F&client_id=875a3b57d3a640a6b7f9b4e883463ab4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a751a02-51e4-4aee-b3fc-333a7ff4376e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f83c0ab3-c238-4fee-a2db-336a0b642861",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0839a539-b81c-483f-82c8-97bb8ff404cf",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testedesoftware224154@gmail.com"
+    }, {
+      "id": "04cb90eb-d923-4ecc-8588-2785a7565805",
+      "comment": "",
+      "command": "click",
+      "target": "id=send",
+      "targets": [
+        ["id=send", "id"],
+        ["css=#send", "css:finder"],
+        ["xpath=//button[@id='send']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "656bf250-cbed-4025-9c9a-b7d7001e3410",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=send",
+      "targets": [
+        ["id=send", "id"],
+        ["css=#send", "css:finder"],
+        ["xpath=//button[@id='send']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36448625-190b-4dad-8bf3-dbb8c0fdab2e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=send",
+      "targets": [
+        ["id=send", "id"],
+        ["css=#send", "css:finder"],
+        ["xpath=//button[@id='send']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dfe1d9c5-10d0-4759-a65c-ff6a6c335e5b",
+    "name": "Preencher Email Errado",
+    "commands": [{
+      "id": "efa5a522-bc0e-47fd-8699-e91ad38ab1b0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.epicgames.com/id/login?lang=pt-BR&noHostRedirect=true&redirectUrl=https%3A%2F%2Fstore.epicgames.com%2Fpt-BR%2F&client_id=875a3b57d3a640a6b7f9b4e883463ab4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dfd89ac2-a45e-461e-af29-88dab91263a5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fe22d74-8cd9-4b16-8223-90546a8e7f72",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "082968ad-51e7-45fb-b16e-31891eae4bcb",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0eb4405-9b74-4696-bac7-dd95eb3067e0",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "asdasdasd.com"
+    }, {
+      "id": "59d2e7e8-4c93-4bf7-adad-3063a7d5c715",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mui-7uc148",
+      "targets": [
+        ["css=.mui-7uc148", "css:finder"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8fababd8-28f1-49c2-84c8-a898f9fbf733",
+    "name": "Preencher Senha Correta",
+    "commands": [{
+      "id": "5d577933-0248-4768-8cbc-6bb577941b68",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.epicgames.com/id/login?lang=pt-BR&noHostRedirect=true&redirectUrl=https%3A%2F%2Fstore.epicgames.com%2Fpt-BR%2F&client_id=875a3b57d3a640a6b7f9b4e883463ab4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edb92074-ec74-4448-81ec-38ed5f8c997d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7b94b7e-45f5-47e3-865b-602a846db876",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37132418-116e-496b-b164-be662a201470",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testedesoftware224154@gmail.com"
+    }, {
+      "id": "562c70d7-cfbb-4e08-b2c9-457ff996abdd",
+      "comment": "",
+      "command": "click",
+      "target": "id=send",
+      "targets": [
+        ["id=send", "id"],
+        ["css=#send", "css:finder"],
+        ["xpath=//button[@id='send']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd20bf39-467c-4d59-8993-b0a7b5454882",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mui-14zyz1b > path:nth-child(3)",
+      "targets": [
+        ["css=.mui-14zyz1b > path:nth-child(3)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc5313d5-7514-4697-b68d-85c7996165f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bc9d40a-37b2-4456-8fbf-22a73078dd2c",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "testeteste45"
+    }, {
+      "id": "5a963dea-308d-4504-a2bd-510a905c3162",
+      "comment": "",
+      "command": "click",
+      "target": "css=.EuiButton-innerLabel",
+      "targets": [
+        ["css=.EuiButton-innerLabel", "css:finder"],
+        ["xpath=//button[@id='sign-in']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "db02b88b-a0c4-47a6-af01-cd0eb75480c7",
+    "name": "Preencher Senha errada",
+    "commands": [{
+      "id": "2c235836-5b86-4e1c-86ef-3a84a9d0e0d4",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.epicgames.com/id/login?lang=pt-BR&noHostRedirect=true&redirectUrl=https%3A%2F%2Fstore.epicgames.com%2Fpt-BR%2F&client_id=875a3b57d3a640a6b7f9b4e883463ab4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "023269f3-f05a-4699-8486-df571bb2ea48",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79cd0993-b81c-425d-9863-611771bd26f4",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b04d562-06aa-4199-aff0-2d0dda2177c6",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testedesoftware224154@gmail.com"
+    }, {
+      "id": "694bb71b-21c4-4502-9c50-643e7fc32cbc",
+      "comment": "",
+      "command": "click",
+      "target": "id=send",
+      "targets": [
+        ["id=send", "id"],
+        ["css=#send", "css:finder"],
+        ["xpath=//button[@id='send']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b93f5a7d-8776-488f-a4c3-80a63b193848",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#send > .EuiButton-innerLabel",
+      "targets": [
+        ["css=#send > .EuiButton-innerLabel", "css:finder"],
+        ["xpath=//button[@id='send']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7669c7c3-a795-46fb-9c06-543c0b093d93",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#send > .EuiButton-innerLabel",
+      "targets": [
+        ["css=#send > .EuiButton-innerLabel", "css:finder"],
+        ["xpath=//button[@id='send']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4bc4160-c138-4cf0-8117-73490d1dcec7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=send",
+      "targets": [
+        ["id=send", "id"],
+        ["css=#send", "css:finder"],
+        ["xpath=//button[@id='send']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5e2a665-34b6-4d40-9bf4-cd0cb338129e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=send",
+      "targets": [
+        ["id=send", "id"],
+        ["css=#send", "css:finder"],
+        ["xpath=//button[@id='send']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c01ddf8-ba7e-46d6-b74c-85d869ce20cf",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b791b4ec-22b6-4f42-b661-07b3dac1cc0b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='modal-content']/div[2]/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "asasdasdasd"
+    }, {
+      "id": "1f8c8a08-e2ab-4c4b-803b-bee527c472df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.EuiButton-innerLabel",
+      "targets": [
+        ["css=.EuiButton-innerLabel", "css:finder"],
+        ["xpath=//button[@id='sign-in']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b4a4622-618d-42b2-a4f1-c73220aa06d4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.EuiButton-innerLabel",
+      "targets": [
+        ["css=.EuiButton-innerLabel", "css:finder"],
+        ["xpath=//button[@id='sign-in']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6554d5c-57dd-4fe4-9adc-a56251c8bcf6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.EuiButton-innerLabel",
+      "targets": [
+        ["css=.EuiButton-innerLabel", "css:finder"],
+        ["xpath=//button[@id='sign-in']/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "721f0974-cead-41df-bdc0-f0f8cc38394d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3eb8be16-55cc-49f5-9871-1ba87222317e"]
+  }],
+  "urls": [],
+  "plugins": []
+}
